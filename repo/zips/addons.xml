@@ -1,22 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="repository.AuraModDevRepo" name="AuraModDevRepo" version="1.0" provider-name="jojobrogess">
-    <extension point="xbmc.addon.repository" name="AuraModDevRepo">
-        <dir minversion="19">
-            <info compressed="false">https://raw.githubusercontent.com/jojobrogess/AuraModDevRepo/master/repo/matrix/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/jojobrogess/AuraModDevRepo/master/repo/matrix/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/jojobrogess/AuraModDevRepo/master/repo/matrix/zips/</datadir>
-        </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>AuraModDevRepo</summary>
-        <description>An automated script will keep this updated with AuraMod from SerpentDrago/AuraMod Matrix. This is for DEV purposes only. Use at your own risk!</description>
-        <disclaimer></disclaimer>
-        <platform>all</platform>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
-</addon>
 </addons>
