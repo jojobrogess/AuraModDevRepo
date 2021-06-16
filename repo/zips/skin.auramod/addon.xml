@@ -1,25 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<addons>
-<addon id="repository.AuraModDevRepo" name="AuraModDevRepo" version="1.0" provider-name="jojobrogess">
-    <extension point="xbmc.addon.repository" name="AuraModDevRepo">
-        <dir minversion="19">
-            <info compressed="false">https://raw.githubusercontent.com/jojobrogess/AuraModDevRepo/master/repo/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/jojobrogess/AuraModDevRepo/master/repo/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/jojobrogess/AuraModDevRepo/master/repo/zips/</datadir>
-        </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>AuraModDevRepo</summary>
-        <description>An automated script will keep this updated with AuraMod from SerpentDrago/AuraMod Matrix. This is for DEV purposes only. Use at your own risk!</description>
-        <disclaimer></disclaimer>
-        <platform>all</platform>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
-</addon>
-
+<?xml version='1.0' encoding='UTF-8'?>
 <addon id="skin.auramod" version="1.0.35" name="Aura[COLOR cyan]MOD[/COLOR]" provider-name="skyfsza,inb4after,SerpentDrago">
     <requires>
         <import addon="xbmc.gui" version="5.15.0"/>
@@ -148,9 +127,9 @@
             -Fix RT usermeter visibility condition for Liked %
             -changed Liked % to use RT usermeter rating
             -Add Monochrome RT certified icon
-            -Add DialogVideoInfo.xml monochrome studio logo support
+            -Add DialogVideoInfo.xml monochrome studio logo support 
             -Fix star ratings for seasons in library views
-            -Fix episode duration visibility
+            -Fix episode duration visibility 
             v1.0.6
             -Fix RT icons in "More Info" section of "Cast and More"
             -Improve custom Actor Window handling
@@ -163,7 +142,7 @@
             -Massive overhal to Netflix info (fixed play , episodes , and other buttons)
             v1.0.4
             -Fix startup video hang bug
-            -Lots of fixs to various library views and the images used
+            -Lots of fixs to various library views and the images used 
             -Fix Dependency Hang on startup
             -Removed old XBMC. references throughout skin
             -Fix tmdbhelper widget netflix info "Episodes" button
@@ -173,12 +152,12 @@
             -removed unload conditions that are no longer needed for matrix
             -Fixed unmatched ()
             -Tweaked display of notification/busy dialog
-            -Fixed shade on volume controls
+            -Fixed shade on volume controls 
             -Temp fix error with "multi widget spotlight" style Removed actors for now
             v1.0.3.1
             -Status bar OSD now follows main skin Highlight color
             -OSD time Elapsed Separators now match skin highlight color 2
-            -Removed disable mouse/touch on startup
+            -Removed disable mouse/touch on startup 
             -Added Partial Spanish Translation
             V1.0.2
             -replaced old xbmc. commands with modern equivalents in power menus
@@ -191,4 +170,3 @@
         </news>
     </extension>
 </addon>
-</addons>
