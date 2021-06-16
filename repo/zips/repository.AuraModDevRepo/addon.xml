@@ -2,9 +2,9 @@
 <addon id="repository.AuraModDevRepo" name="AuraModDevRepo" version="1.0" provider-name="jojobrogess">
     <extension point="xbmc.addon.repository" name="AuraModDevRepo">
         <dir minversion="19">
-            <info compressed="false">https://raw.githubusercontent.com/jojobrogess/AuraModDevRepo/master/repo/matrix/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/jojobrogess/AuraModDevRepo/master/repo/matrix/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/jojobrogess/AuraModDevRepo/master/repo/matrix/zips/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/jojobrogess/AuraModDevRepo/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jojobrogess/AuraModDevRepo/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jojobrogess/AuraModDevRepo/master/repo/zips/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
